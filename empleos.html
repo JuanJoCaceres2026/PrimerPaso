@@ -29,19 +29,33 @@
                 </div>
             </a>
 
-            <nav class="nav-links" aria-label="Navegación principal">
-                <a href="index.html">Inicio</a>
-                <a href="empleos.html" class="active" aria-current="page">Empleos</a>
-                <a href="index.html#herramientas">Herramientas</a>
-                <a href="index.html#recursos">Recursos</a>
-                <a href="index.html#blog">Blog</a>
-            </nav>
+           <nav class="nav-links">
+    <a href="index.html">Inicio</a>
+    <a href="empleos.html" class="active" aria-current="page">
+        Empleos
+    </a>
+    <a href="index.html#herramientas">Herramientas</a>
+    <a href="index.html#recursos">Recursos</a>
+    <a href="#" data-coming-soon="Blog">Blog</a>
+</nav>
 
-            <div class="nav-buttons">
-                <a href="#" class="btn btn-outline">Iniciar sesión</a>
-                <a href="#" class="btn btn-primary">Registrarse</a>
-            </div>
+<div class="nav-buttons">
+    <a
+        href="auth.html?mode=login"
+        class="btn btn-outline"
+        data-auth-login
+    >
+        Iniciar sesión
+    </a>
 
+    <a
+        href="auth.html?mode=register"
+        class="btn btn-primary"
+        data-auth-register
+    >
+        Registrarse
+    </a>
+</div>
         </div>
     </header>
 
